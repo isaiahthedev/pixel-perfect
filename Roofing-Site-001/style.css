@@ -64,6 +64,7 @@
     border: none;
     font-family: Teko, Arial, Helvetica;
     font-size: 1.25rem;
+    padding-left: 15px;
 }
 #select-service {
     width: 80%;
@@ -73,6 +74,7 @@
     font-family: Teko, Arial, Helvetica;
     font-size: 1.25rem;
     color: #403230;
+    padding-left: 15px;
 }
 #submit-request {
     width: 80%;
@@ -93,4 +95,25 @@
 }
 #review-text {
     font-family: Arial, Helvetica, sans-serif;
+    opacity: 70%;
+}
+#review-profile {
+    display: flex;
+    margin-top: 15px;
+}
+#review-profile-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-left: 15px;
+}
+#review-name {
+    font-family: Teko, Arial, Helvetica;
+    margin: 5px 0 0px 0;
+}
+#review-location {
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 60%;
+    font-size: 0.9rem;
+    margin: -15px 0 -15px 0;
 }
