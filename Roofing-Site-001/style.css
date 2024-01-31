@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 #hero {
-    background-image: url('Assets/Hero-image.png');
+    background-image: url('/Assets/Hero-image.png');
     background-size: cover;
     background-position: center;
     color: white;
