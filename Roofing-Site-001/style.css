@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 #hero {
-    background-image: url('/Roofing-Site-001/Assets/Hero-image.png');
+    background-image: url('Hero-image.png');
     background-size: cover;
     background-position: center;
     color: white;
