@@ -88,10 +88,10 @@
 }
 #review {
     border-left: 8px solid #ffbd14;
-    width: 35vw;
+    width: 38vw;
     margin-left: 55%;
     padding-left: 30px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 #review-text {
     font-family: Arial, Helvetica, sans-serif;
@@ -99,7 +99,7 @@
 }
 #review-profile {
     display: flex;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 #review-profile-text {
     display: flex;
@@ -116,4 +116,33 @@
     opacity: 60%;
     font-size: 0.9rem;
     margin: -15px 0 -15px 0;
+}
+#section1-intro {
+    margin-top: 225px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#section1-intro-title2 {
+    font-family: Teko, Arial, Helvetica;
+    opacity: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #403230;
+    width: 100%;
+}
+#section1-intro-title1 {
+    font-family: Teko, Arial, Helvetica;
+    text-align: center;
+    font-size: 3rem;
+    color: #403230;
+    width: 50%;
+    line-height: 1;
+    margin: 15px 0 15px 0;
+}
+#section1-intro-text {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    text-align: center;
+    opacity: 70%;
 }
