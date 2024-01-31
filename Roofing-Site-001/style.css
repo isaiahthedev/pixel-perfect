@@ -174,3 +174,22 @@
     font-family: Arial, Helvetica, sans-serif;
     opacity: 70%;
 }
+#second-section {
+    margin-top: 150px;
+    border: 1px solid black;
+}
+#section2-title2 {
+    font-family: Teko, Arial, Helvetica;
+    opacity: 50%;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #403230;
+    width: 100%;
+}
+#section1-title1 {
+    font-family: Teko, Arial, Helvetica;
+    text-align: center;
+    font-size: 4.5rem;
+    color: #403230;
+    width: 100%;
+}
