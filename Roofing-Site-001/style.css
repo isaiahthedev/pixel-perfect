@@ -86,6 +86,10 @@
     font-size: 1.5rem;
     margin: 15px 0 30px 0;
 }
+#submit-request:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
 #review {
     border-left: 8px solid #ffbd14;
     width: 38vw;
@@ -144,5 +148,29 @@
     font-family: Arial, Helvetica, sans-serif;
     width: 70%;
     text-align: center;
+    opacity: 70%;
+}
+#promises {
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+.promise {
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.promise-title {
+    font-family: Teko, Arial, Helvetica;
+    font-size: 2rem;
+    width: 100%;
+    color: #403230;
+    margin-top: 30px;
+}
+.promise-text {
+    font-family: Arial, Helvetica, sans-serif;
     opacity: 70%;
 }
