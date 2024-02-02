@@ -176,7 +176,7 @@
 }
 #second-section {
     margin-top: 150px;
-    border: 1px solid black;
+    padding-bottom: 50px;
 }
 #section2-title2 {
     font-family: Teko, Arial, Helvetica;
@@ -192,4 +192,45 @@
     font-size: 4.5rem;
     color: #403230;
     width: 100%;
+}
+#services-group {
+    width: 100vw;
+    display: flex;
+    height: 550px;
+    justify-content: space-evenly;
+}
+.sg {
+    display: flex;
+    justify-content: space-evenly;
+    width: 33vw;
+    color: white;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding-bottom: 60px;
+}
+#sg1 {
+    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/commercial-roofing.png');
+    object-fit: cover;
+}
+#sg2 {
+    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/residential-roofing.png');
+    object-fit: cover;
+}
+#sg3 {
+    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/siding.png');
+    object-fit: cover;
+}
+.sg-content {
+    width: 320px;
+    height: 120px;
+    text-align: center;
+}
+.sg-title {
+    font-family: Teko, Arial, Helvetica;
+    font-size: 2rem;
+}
+.sg-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
 }
