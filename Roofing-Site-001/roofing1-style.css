@@ -210,16 +210,19 @@
     padding-bottom: 60px;
 }
 #sg1 {
-    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/commercial-roofing.png');
-    object-fit: cover;
+    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/commercial-roofing.png') no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 #sg2 {
-    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/residential-roofing.png');
-    object-fit: cover;
+    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/residential-roofing.png') no-repeat;
+    background-repeat: center;
+    background-size: cover;
 }
 #sg3 {
-    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/siding.png');
-    object-fit: cover;
+    background:linear-gradient(to top, #1b0a08b9, #1b0a08b9), url('Assets/siding.png') no-repeat;
+    background-repeat: center;
+    background-size: cover;
 }
 .sg-content {
     width: 320px;
