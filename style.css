@@ -8,4 +8,5 @@
 #navbar {
     height: 30px;
     background-color: var(--primary-color);
+    display: flex;
 }
