@@ -11,10 +11,7 @@
 </head>
 <body>
     <nav id="navbar">
-        <ul class="nav-links">
-            <li>
-                <img src="Assets/pixil-frame-0(2).png" alt="logo" class="logo" width="34">
-            </li>
+        <ul class="side-bar">
             <li>
                 <a href="index.html">Home</a>
             </li>
@@ -22,8 +19,8 @@
                 <a href="about.html">About</a>
             </li>
         </ul>
-        <ul class="side-bar">
-            <li>
+        <ul>
+            <li id="logo">
                 <img src="Assets/pixil-frame-0(2).png" alt="logo" class="logo" width="34">
             </li>
             <li>
@@ -32,11 +29,31 @@
             <li>
                 <a href="about.html">About</a>
             </li>
+            <li onclick=showSidebar()><a id="menu" href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
     <div id="website-grid">
         <a href="Roofing-Site-001/roofing1.html">Roofing Site 001</a>
         <a href="Dental-Site-001/dental1.html">Dental Site 001</a>
     </div>
+
+    <script>
+        let a = false;
+        function showSidebar() {
+            const sidebar = document.querySelector('.side-bar');
+            const menu = document.querySelector('#menu');
+            if(a === false) {
+                menu.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>';
+                a = true;
+                sidebar.style.display = 'flex';
+            }
+            else {
+                menu.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>';
+                a = false;
+                sidebar.style.display = 'none';
+            }
+            
+        }
+    </script>
 </body>
 </html>

@@ -7,6 +7,7 @@
 :root {
     --primary-color: #101417;
     --secondary-color: #1b2128;
+    --accent-color: #f21289;
 }
 body {
     background: var(--primary-color);
@@ -41,7 +42,7 @@ nav li a{
 nav li a:hover{
     background-color: var(--secondary-color);
 }
-nav li:first-child {
+nav #logo {
     margin-right: auto;
     padding-left: 20px;
 }
@@ -51,16 +52,20 @@ a {
 }
 .side-bar{
     position: fixed;
-    top: 0;
+    border-top: var(--secondary-color);
+    top: 50px;
     right: 0;
-    height: 80vh;
     z-index: 999;
     box-shadow: 0px 13px 10px black;
     background-color: var(--primary-color);
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-bottom: 10px;
+}
+svg {
+    fill: var(--accent-color);
 }
 .side-bar li {
     width: 100%;
